@@ -28,7 +28,12 @@ Before diving into those guides it may be helpful to work through the following 
 1. Write a function named `sumBy` which takes an `array` of Objects, each of which has `totalPrice` and `department` properties. The function should return an Object containing the sum of `totalPrice` by `department`. Here is sample usage:
 
   ```
-  var data = [{department: 'Food', totalPrice: 10}, {department: 'Food', totalPrice: 14}, {department: 'Not Food', totalPrice: 2}, {department: 'Not Food', totalPrice: 682}];
+  var data = [
+    {department: 'Food', totalPrice: 10},
+    {department: 'Food', totalPrice: 14},
+    {department: 'Not Food', totalPrice: 2},
+    {department: 'Not Food', totalPrice: 682}
+  ];
   console.log(sumBy(data));
   // { Food: 24, 'Not Food' : 684 }
   ```
